@@ -317,6 +317,7 @@ static inline UWord sr_Err ( SysRes sr ) {
 }
 static inline Bool sr_EQ ( UInt sysno, SysRes sr1, SysRes sr2 ) {
    /* sysno is ignored for Linux/not-MIPS */
+   (void)sysno;
    return sr1._val == sr2._val
           && sr1._isError == sr2._isError;
 }

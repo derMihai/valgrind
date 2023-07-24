@@ -2237,6 +2237,21 @@
 /none/tests/x86-freebsd/Makefile.in
 /none/tests/x86-freebsd/445032
 
+# /hpcmp/
+/hpcmp/*.so
+/hpcmp/.deps
+/hpcmp/Makefile
+/hpcmp/Makefile.in
+/hpcmp/hpcmp-*-linux
+
+# /hpcmp/docs/
+/hpcmp/docs/Makefile.in
+/hpcmp/docs/Makefile
+
+# /hpcmp/tests
+/hpcmp/tests/Makefile
+/hpcmp/tests/Makefile.in
+
 # /perf/
 /perf/*.dSYM
 /perf/.deps
@@ -2303,3 +2318,10 @@
 
 # /VEX/switchback/
 /VEX/switchback/switchback
+
+# install
+/inst
+
+# some test files
+hpcapp_*
+*.log

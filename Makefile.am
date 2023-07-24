@@ -12,7 +12,8 @@ TOOLS = \
 		massif \
 		dhat \
 		lackey \
-		none
+		none \
+		hpcmp
 
 EXP_TOOLS = \
 		exp-bbv
